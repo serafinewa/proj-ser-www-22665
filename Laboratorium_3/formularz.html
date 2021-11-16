@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Formularz</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="#" id="aktualna-data"></a>
+                <!-- <a class="navbar-brand" href="#">Formularz</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Strona główna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="list.html">List</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="formularz.html">Formularz</a></li>
+						<li class="nav-item"><a class="nav-link" href="podrecznik.html">Podręcznik</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container" id="stronkaglowna">
+			<div class="row">
+				<form id="formul1">
+					<div class="formularz" id="formularz">
+						<br><img src="assets\book.png" align="right" width="860" height="530"><br>
+						<label for="podaj-nick"><b>Nick:</b> &nbsp<br></label>
+						<div><input class="center-box" id="podaj-nick"><br></div>
+						<label for="wpisz-email"><b>Adres e-mail:</b>&nbsp<br></label>
+						<div><input class="inputbox" id="wpisz-email"><br></div>
+						<label for="wpisz-wiek"><b>Wiek:</b> &nbsp<br></r></label>
+						<div><input type="number" id="wpisz-wiek" min="12" max="100"><br><br></div>
+
+						<div><input type="radio" id="radio1" value="opcja1" name="opcja">
+						<label for="radio1"><b>Kobieta</b></label>
+						<input type="radio" id="radio2" value="opcja2" name="opcja">
+						<label for="radio2"><b>Mężczyzna</b></label><br></div>
+						<label for="chkbox1">Czy przeczytałeś regulamin?</label>
+						<input type="checkbox" id="chkbox1"><br><br>
+						<button type="submit" class="button-submit">Wyślij formularz</button>
+					</div>
+				</form>
+			</div>
+		</div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts/scripts.js"></script>
+</body>
+</html>
