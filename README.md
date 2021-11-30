@@ -5,7 +5,7 @@ W grze chodzi o to, żeby poruszając platformą w górę oraz w dół odbijać 
 gracz traci swój punkt. Gra trwa 3 rundy, po ich upłynięciu następuje koniec rozgrywki i ogłoszenie wyniku.
 ###Ekran startowy
 
-![game start](C:\Users\ewekmarchewek\Desktop\studies\projektowanie_serwisow_www\proj-ser-www-22665-195IC\Laboratorium_4/assets/game_menu.png)
+![game start](/Laboratorium_4/assets/game_menu.png)
 
 ###Rozpoczęta gra - piłka w grze
 
