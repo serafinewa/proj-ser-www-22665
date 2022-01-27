@@ -6,6 +6,7 @@ theme.style.backgroundColor = "silver"
 theme.style.color = "black";
 document.getElementById("nav").appendChild(theme);
 
+
 var bdy = document.getElementById("body");
 theme.onclick = function (){
     if(bdy.style.color!=="black"){
