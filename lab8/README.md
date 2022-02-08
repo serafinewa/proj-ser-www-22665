@@ -23,6 +23,8 @@ Pakiet potrzebny do realizacji zadania to react-collapse oraz react-bootstrap, c
 
 ![gitdifftool](../assets/gitdifftool3.png "difftool")  
 
+#### Link do oryginalnego przykładu https://github.com/roginfarrer/react-collapsed
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
