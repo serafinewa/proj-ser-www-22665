@@ -1,3 +1,21 @@
+## Laboratorium 8 - React - aplikacja nr 3 + analiza kodu źródłowego + git difftool  
+Pakiet potrzebny do realizacji zadania to react-collapse oraz react-bootstrap, collapse pozwala tworzyć rozwijane komponenty w react korzystając z CSS.
+
+### Przycisk showme 
+
+![showme](../assets/showme.png "showme")  
+
+### po kliknięciu rozwija się : 
+
+![hideit](../assets/hideit.png "hideit")  
+
+### nazwa guziczka zmienia się z show me! na hide it! oraz wyświetlił się tekst ewekmarchewek
+### Wyskakuje również drugi guzik z możliwością pokazania większej ilości tekstu.
+
+![wiecejtekstu](../assets/pokazwiecejtekstu.png "moretext")  
+
+### po kliknięciu na przycisk "Pokaż więcej tekstu" widać dodatkowy fragment tekstu "Pokaż więcej tesktu!".  Napis na drugim guziku również zmienia się po rozwinięciu na "Pokaż mniej tekstu"
+
 
 
 # Getting Started with Create React App
