@@ -16,7 +16,12 @@ Pakiet potrzebny do realizacji zadania to react-collapse oraz react-bootstrap, c
 
 ### po kliknięciu na przycisk "Pokaż więcej tekstu" widać dodatkowy fragment tekstu "Pokaż więcej tesktu!".  Napis na drugim guziku również zmienia się po rozwinięciu na "Pokaż mniej tekstu"
 
+### GitDiffTool - pokazanie różnic między Laboratorium 8 1st commit, a Laboratorium 8 2nd commit.
+![gitdiff](../assets/gitdifftool.png "diff1")  
 
+![gitdiff2](../assets/gitdifftool2.png "diff2")  
+
+![gitdifftool](../assets/gitdifftool3.png "difftool")  
 
 # Getting Started with Create React App
 
