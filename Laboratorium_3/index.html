@@ -32,13 +32,16 @@
                         <li class="nav-item"><a class="nav-link" href="list.html">List</a></li>
                         <li class="nav-item"><a class="nav-link" href="formularz.html">Formularz</a></li>
                         <li class="nav-item"><a class="nav-link" href="podrecznik.html">Podrecznik</a></li>
+                        <li class="nav-item"><a class="nav-link" href="klawiatura.html">Klawiatura</a></li>
                             </ul>
 
                     </ul>
                 </div>
             </div>
         </nav>
+
         <!-- Page content-->
+
         <div class="indexmain">
             <div class="text-center mt-5" style="font-family:'Courier New'">
                 <h1>Strona autorstwa <font color="#fe7f9c"> Ewy Serafin.</font></h1>
@@ -67,8 +70,90 @@
 	</button>
 </div>
 
+<!-- new 0902 -->
+        <div class="container">
+    <div class="row" >
+      <div class="col-lg-12 text-center" id="test">
+        <h1 class="mt-5"  id="text">Sprawdź event listener!</h1>
+        <p class="lead">Metody addEventListener będą się wyświetlać za pomocą konsoli. Działanie można sprawdzić na nagłówku "Sprawdź event listener!"</p>
+        <h2 class="mt-4">Wykorzystane eventListenery : </h2>
+        <ul class="list-unstyled">
+            <li>1. Click</li>
+            <li>2. Double Click</li>
+            <li>3. Scroll</li>
+            <li>4. Mouse over</li>
+            <li>5. Mouse out</li>
+            <li>6. Mouse up</li>
+            <li>7. Mouse move</li>
+            <li>8. Copy</li>
+            <li>9. Key Down</li>
+            <li>10. Load</li>
+
+          <h2 class="mt-4">Naciśnięty klawisz: </h2>
+          <p id="key_down">WCIŚNIJ DOWOLNY PRZYCISK</p>
+        </ul>
+      </div>
+    </div>
+  </div>
 
         <!-- Bootstrap core JS-->
+        <script>
+        var text = document.getElementById("text");
+        window.addEventListener("load", load);
+        text.addEventListener("mouseover", mouseOver);
+        text.addEventListener("mouseout", mouseOut);
+        text.addEventListener("mousemove", mouseMove);
+        text.addEventListener("mouseup", mouseUp);
+        text.addEventListener("click", click);
+        text.addEventListener("dblclick", doubleClick);
+        window.addEventListener("scroll", scroll);
+        window.addEventListener("keydown", keyDown);
+        text.addEventListener("copy", onCopy);
+
+    function load() {
+    console.log("Load");
+    }
+
+    function mouseOver() {
+    console.log("Mouse over");
+    }
+
+    function mouseOut() {
+      console.log("Mouse out");
+    }
+
+    function mouseMove() {
+      console.log("Mouse move");
+    }
+
+    function mouseUp() {
+      console.log("Mouse up");
+    }
+
+    function click() {
+      console.log("Click");
+    }
+
+    function doubleClick() {
+      console.log("Double Click");
+    }
+
+    function scroll() {
+      console.log("Scroll");
+    }
+
+    function keyDown() {
+      console.log("Key down");
+    }
+
+    function onCopy() {
+      console.log("Copy");
+    }
+  </script>
+
+
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>

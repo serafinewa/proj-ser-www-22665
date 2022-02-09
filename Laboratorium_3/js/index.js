@@ -17,3 +17,14 @@ theme.onclick = function (){
     }
 
 };
+
+var stopka = document.getElementById('stopka');
+
+function resize(elem, percent) { elem.style.fontSize = percent; }
+
+stopka.addEventListener('mouseover',function (){
+    resize(this, '150%');
+});
+stopka.addEventListener('mouseout',function (){
+    resize(this, '100%');
+});
