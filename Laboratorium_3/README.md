@@ -1,6 +1,6 @@
 
 #Laboratorium 3 "Obsługa zdarzeń"
-## Wyniki zastosowanych eventListenerów można odczytać w konsoli, sprawdzic
+## Wyniki zastosowanych eventListenerów można odczytać w konsoli
 Wykorzystane eventListenery :
 1. Click
 2. Double Click
